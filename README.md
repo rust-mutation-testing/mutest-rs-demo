@@ -30,6 +30,13 @@ cd external/alacritty/
 cargo mutest -v -p alacritty --bin alacritty run
 ```
 
+### bevy_math: `external/bevy/`
+
+```sh
+cd external/bevy/
+cargo mutest -v -p bevy_math --lib run
+```
+
 ## License
 
 All external subjects under the `external/` directory retain their respective licenses and copyright.
