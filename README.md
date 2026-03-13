@@ -37,6 +37,13 @@ cd external/bevy/
 cargo mutest -v -p bevy_math --lib run
 ```
 
+### chrono: `external/chrono/`
+
+```sh
+cd external/chrono/
+cargo mutest -v -p chrono --lib --depth=10 run
+```
+
 ## License
 
 All external subjects under the `external/` directory retain their respective licenses and copyright.
