@@ -23,6 +23,13 @@ cd basic/
 cargo mutest -v run
 ```
 
+### alacritty: `external/alacritty/`
+
+```sh
+cd external/alacritty/
+cargo mutest -v -p alacritty --bin alacritty run
+```
+
 ## License
 
 All external subjects under the `external/` directory retain their respective licenses and copyright.
